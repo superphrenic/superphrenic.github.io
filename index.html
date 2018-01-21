@@ -1,5 +1,19 @@
+<title>orisa.online</title>
+
 hello <br> <br>
 *waves* <br> <br>
 
-<img src="https://i.imgur.com/5QBMYDp.png"> 
 
+<body>
+	<div id="center-container">
+		<img src="https://i.imgur.com/5QBMYDp.png" id="center-image" onclick="Orisa()">
+		<audio id="Orisa_-_Greetings" src="https://raw.githubusercontent.com/superphrenic/superphrenic.github.io/master/Orisa_-_Greetings.mp3" autostart="false" hidden="true"></audio>
+		<script type="text/javascript">
+			function Orisa(){
+				document.getElementById('Orisa_-_Greetings').currentTime = 0;
+				document.getElementById('Orisa_-_Greetings').play();
+			}
+		</script>
+	</div>
+</body>
+</html>
